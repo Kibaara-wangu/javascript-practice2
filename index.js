@@ -25,8 +25,13 @@ console.log({identity});
 
 // Given the string "JavaScript", use indexing to retrieve and print the first and last characters.
 let f = "JavaScript";
-console.log('index', f.indexOf('J'));
-console.log('index', f.indexOf('t'));
+let word = f.indexOf("J");
+console.log({word});
+let letter = f.indexOf("t")
+console.log({letter});
+
+//  console.log('index', f.indexOf('J'));
+// console.log('index', f.indexOf('t'));
 
 // Access the third element in an array and print its value.
 let num1 = 12;
